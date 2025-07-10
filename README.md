@@ -1,37 +1,54 @@
-# simple-python-spelling-game
-A simple spelling game in Python using `random.choice`, `input`, and basic string methods.
+# 🧠 Simple Python Spelling Game
 
-I'm currently learning Python and revisiting some of my earlier JavaScript knowledge from before the pandemic.
+This is a beginner-level spelling game written in Python. It randomly selects a word from a list and asks the user to type it correctly. Each correct answer adds to the score, which is displayed after every attempt.
 
-The idea for this project came from watching my son play a spelling game. I wanted to build a similar project for an ESL program I'm working on.
+---
 
-To begin, I asked ChatGPT to generate some initial code based on a basic prompt. I then studied the code, line by line, to understand how it worked. After that, I began modifying and expanding it myself.
+## 🎯 Purpose
 
-Python has an extensive library but each module needs to be imported for anything that is required of it for the project.
-So import random.
+This project was built as part of my early Python learning journey. I wanted to reinforce basic principles by making a real, working game I could play with my son — and later use for ESL teaching.
 
-Next... since I wanted the spelling test to be generating random words for the student, I needed a list first ('array' in Javascript) so I could take the words from it.
+---
 
-I placed the score at '0'.
+## 📚 What I Practiced
 
-In the function, I needed the program to loop through the list so that all the words could be selected as far as the range would allow.
-
-The rest of the code went as supposed, with corrections made mostly with ':' and proper indentation.
-I ran the code, calling the function and it worked.
-
-Then, I modified the code so that each correct answer would add to the score incrementally and display the score after each correct answer given.  Initally it didn't work as I wrongly coded the same variable locally as was globally - the 'score' variable'.  'score' was then changed to 'score += 1'.
-
-Newly improved program.
-For a new improvement, ideally the word is spoken on the page, not written. 
-This program allowed me to use import random(), the module from python, run a loop, increment a variable, set global and local variables, call a function, use an f string, use linux via the terminal in vsc, and an if/else statement.
-
-What I Practiced
-
-- Importing a module (`random`)
-- Creating and using lists
+- Using the `random` module (`random.choice`)
+- User input handling (`input`)
 - Looping with `for`
-- Using global and local variables
-- Taking user input
-- Comparing strings with `==`
-- Using `f-strings` for dynamic text
-- Debugging logic and variable scope
+- Global vs local variables
+- f-strings
+- Basic debugging and step-by-step corrections
+
+---
+
+## 🧠 What I Learned
+
+- How to pass and compare user input safely
+- Why variable scope matters (`global`)
+- The importance of indentation and colon use in Python
+- How to give immediate feedback and track state (score)
+
+---
+
+## ✅ Planned Improvements
+
+- Add error-handling for blank input or invalid characters
+- Modularise the code (move logic into separate files)
+- Let the word be spoken aloud using audio (voice-based version)
+- Add a GUI or web-based interface later
+
+---
+
+## 🔄 Next Steps
+
+I'm committed to rewriting this project multiple times from memory to build fluency. Each time I will:
+- Add new features
+- Improve code clarity
+- Document what I learn
+
+---
+
+## 👋 About Me
+
+I'm a self-taught Python learner with a background in JavaScript. I'm rebuilding my knowledge from the ground up after a long break and combining it with ESL teaching to create helpful, real-world tools.
+
